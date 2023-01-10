@@ -1,0 +1,32 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		int number =1;
+		int remainder = number % 2;          //remainder bir sayıyı bölmemizi sağlar  ve kalanı söyler.
+		boolean isPrime = true;              //isPrime komutu asal sayıları temsil eder.
+		
+		if (number<1) {
+			System.out.println("Geçersiz Sayı");
+			                         //return; komutu = sistemin çalışmasını durdurmaya yarar.
+		}
+		
+		if (number==1)
+			System.out.println("Sayı Asal Değildir");{
+				return;
+			}
+			
+			
+		for (int i=2; i<number;i++) {
+			if(number ½ i ==0) {
+				isPrime = false;
+			}
+				
+		}
+		
+
+		
+
+	}
+
+}

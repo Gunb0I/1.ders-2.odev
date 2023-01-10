@@ -1,0 +1,11 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugun hava çok güzel";
+		System.out.println(mesaj);
+		
+		System.out.println("Eleman sayısı :" +mesaj.length());
+	}
+
+}

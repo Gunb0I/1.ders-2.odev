@@ -1,0 +1,16 @@
+
+public class main2 {
+
+	public static void main(String[] args) {
+		String mesaj = "Bugun hava çok güzel.";
+		System.out.println(mesaj);
+		
+		System.out.println(mesaj.replace(" ", "-")); //mevcut değişkenin içeriğini değiştirmeye yarar
+		System.out.println(mesaj);
+		
+		String yeniMesaj = mesaj.replace(" ", "-");  //değiştirilen değşkenle devam etmek için, değiştirilen değişken yeni değişkene atanmalıdır.
+		System.out.println(yeniMesaj);
+	
+	}
+
+}

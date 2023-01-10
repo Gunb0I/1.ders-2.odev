@@ -1,0 +1,24 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		//For
+		for(int i=1;i<10;i++) {                //i<=10  küçük eşittir olur yani 10'u da saymasını sağlarız.
+			System.out.println(i);
+		}
+		
+		System.out.println("Döngü bitti efendim.");
+		
+		
+		//While
+		while(i<10) {
+			System.out.println(i);
+			i+=2;
+			
+		}
+				
+		
+		
+	}
+
+}

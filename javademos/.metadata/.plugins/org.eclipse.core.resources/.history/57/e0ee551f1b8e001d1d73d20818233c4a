@@ -1,0 +1,17 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		String ogrenci1 = "Engin";
+		String ogrenci2 = "Civan";
+		String ogrenci3 = "Salih";
+		String ogrenci4 = "Derin";
+		
+		System.out.println(ogrenci1);
+		System.out.println(ogrenci2);
+		System.out.println(ogrenci3);
+		System.out.println(ogrenci4);
+
+	}
+
+}

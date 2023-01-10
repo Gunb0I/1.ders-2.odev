@@ -1,0 +1,27 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		int number =25;
+		int remainder = number % 2;          //remainder bir sayıyı bölmemizi sağlar  ve kalanı söyler.
+		boolean isPrime = true;              //isPrime komutu asal sayıları temsil eder.
+		
+		
+		
+		for (int i=2; i<number;i++) {
+			if(number % i == 0) {
+				isPrime = false;
+			}
+		}
+		
+		if(isPrime == true) {
+			System.out.println("Sayı Asaldır");
+		}
+		
+		else {
+			System.out.println("Sayı Asal Değildir");
+		}
+
+	}
+
+}
