@@ -1,0 +1,19 @@
+
+public class main {
+
+	public static void main(String[] args) {
+		Product product = new Product();
+		product.name = "Laptop";
+		product.setid(1);
+		product.description = "Asus Laptop";
+		product.price = 5000;
+		product.StockAmount = 3;
+		
+		
+		ProductManager productManager = new ProductManager();
+		productManager.Add(product);
+		
+		
+	}
+
+}
